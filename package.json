@@ -1,0 +1,22 @@
+{
+    "name": "digscord",
+    "version": "1.0.0",
+    "description": "My terrible discord bot framework, for discord.js and ts-node!",
+    "main": "src/index.ts",
+    "scripts": {
+        "start": "nodemon src/index.ts",
+        "test": "nodemon test/index.ts"
+    },
+    "author": "thedigs",
+    "license": "ISC",
+    "dependencies": {
+        "discord.js": "^12.5.1",
+        "dotenv": "^8.2.0"
+    },
+    "devDependencies": {
+        "@types/node": "^14.14.33",
+        "nodemon": "^2.0.7",
+        "ts-node": "^9.1.1",
+        "typescript": "^4.2.3"
+    }
+}
